@@ -3,7 +3,11 @@ package day01_bitwise_operation;
 public class Test {
 
     public static void main(String[] args) {
-        testFunc(12387149);
+        int a = -1024;
+        testFunc(5);
+        System.out.println();
+        testFunc(~5+1);
+
     }
 
     public static void testFunc(int num) {
